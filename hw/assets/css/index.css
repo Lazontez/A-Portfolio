@@ -14,15 +14,15 @@ header {
     background-color: #ffffff;
     padding: 20px;
     border-bottom-style: solid;
-    border-bottom-color: #4aaaa5; 
+    border-bottom-color: #777777; 
     
      
 }
 
 h1{
-    position: relative;
+    /* position: relative;
     left: 15%;
-    bottom:15%;
+    bottom:15%; */
     display: inline;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -60,8 +60,8 @@ position: absolute;
 h2{
     font-family: Georgia,Times, 'Times New Roman', serif;
     /* position: absolute; */
-    left:16%;
-    top:20%;
+    /* left:16%;
+    top:20%; */
     z-index: 1;
     color: #4aaaa5;
    
@@ -130,22 +130,22 @@ display: inline;
 
 #Message{
     /* position: absolute; */
-    left: 30%;
-    top: 75.5%
+    /* left: 30%;
+    top: 75.5% */
 
 }
 #email{
     /* position: absolute; */
-    left: 30%;
-    top:63.5%;
+    /* left: 30%;
+    top:63.5%; */
 
 }
 #fullName{
-    left: 30%;
-    top:50.5%;
+    /* left: 30%;
+    top:50.5%; */
 }
 
-input[type=text], select, textarea {
+ input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
     border: 1px solid #ccc;
@@ -153,10 +153,10 @@ input[type=text], select, textarea {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
-  }
+    resize: vertical  
+   } 
 
-input[type=email], select, textarea{
+ input[type=email], select, textarea{
     width: 100%; 
     padding: 12px; 
     border: 1px solid #ccc;
@@ -164,8 +164,8 @@ input[type=email], select, textarea{
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
-}
+    resize: vertical  
+ } 
 
 #mainContact{
     background-color:#F1F1F1;
@@ -190,10 +190,10 @@ input[type=email], select, textarea{
     margin-left: 215px;
     width: 550px;
     padding: 50px 100px;
-    display: inline-block;
+     display: inline-block;
 }
 
-#first, #third, #fifth { 
+#first, #third, #fifth{ 
     margin-right: 50px;
 }
 #first, #second, #third, #fourth, #fifth{
@@ -211,3 +211,4 @@ input[type=email], select, textarea{
 margin-left: -150px;
 margin-top: -50px;  
 }
+
