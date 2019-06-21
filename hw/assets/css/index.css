@@ -1,6 +1,7 @@
 
 body{
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 
     /* background-image:url(assets/images/memphis-mini-dark.png); */
     background-color: rgb(63, 59, 5, 0.329);
@@ -109,13 +110,13 @@ img{
 
 }
 footer{
-   
+   margin-top: 10px;
     border-top: 5px;
     border-top-color: #4aaaa5;
     color: whitesmoke;
     background-color: #777777;
     border-top-style: solid;
-    padding: 10px;
+    padding: 25px;
     /* background-color: #F1F1F1; */
     position: sticky;
     /* color: #777777; */
@@ -127,24 +128,6 @@ background-color: yellow;
 display: inline;
 
 }
-
-#Message{
-    /* position: absolute; */
-    /* left: 30%;
-    top: 75.5% */
-
-}
-#email{
-    /* position: absolute; */
-    /* left: 30%;
-    top:63.5%; */
-
-}
-#fullName{
-    /* left: 30%;
-    top:50.5%; */
-}
-
  input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -190,7 +173,7 @@ display: inline;
     margin-left: 215px;
     width: 550px;
     padding: 50px 100px;
-     display: inline-block;
+    display: inline-block;
 }
 
 #first, #third, #fifth{ 
@@ -212,3 +195,85 @@ margin-left: -150px;
 margin-top: -50px;  
 }
 
+#mainSection{
+    background:whitesmoke;
+    position: relative;
+    left: 350px;
+    top: 50px;
+    width: 650px;
+    height: 800px;
+}
+#wordGuessHead{
+    color: yellow;
+    position: relative;
+    left: 80px;
+    z-index: 1;
+    top: 180px;
+}
+#first{
+    position: relative;
+    left: 50px;
+
+}
+#crystalHead{
+    color: yellow;
+    position: relative;
+    left: 140px;
+    z-index: 1;
+    top: 140px;
+}
+#second{
+    position: relative;
+    left: 100px;
+    top: -35px;
+}
+#third{
+    position: relative;
+    left: 50px;
+}
+#triviaHead{
+    color: yellow;
+    z-index: 1;
+    position: relative;
+    left: -350px;
+    top: 390px;
+}
+#gifHead{
+    color:yellow;
+    z-index: 1;
+    position: relative;
+    left: -30px;
+    top: 350px;
+}
+#fourth{
+    position: relative;
+    left: 100px;
+}
+#fifth{
+        position: relative;
+        left: 50px;  
+}
+#iCryptoHead{
+    position: relative;
+    left: -360px;
+    color: yellow;
+    top: 560px;
+    z-index: 1;
+}
+#sixth{
+    left: 100px;
+    position: relative;
+    width: 200px;
+}
+
+#shoeJunkieHead{
+    color: yellow;
+    position: relative;
+    color: yellow;
+    z-index: 1;
+    top: 520px;
+    left: -30px;
+}
+#portfolioHeader{
+    text-align:center;
+}
