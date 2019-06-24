@@ -3,10 +3,14 @@
 
 <head>
     <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css?family=B612+Mono:700i&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <style>
-
+        body{
+            font-family: 'B612 Mono', monospace;
+        }
 
     </style>
 
@@ -20,26 +24,45 @@
         <nav>
             <div id="topLinks">
 
-                <ul id="aboutTopLink">About</ul>
+                <ul class="topLinks" id="aboutTopLink">About</ul>
                 </h3>
-                <ul id="portfolioTopLink">Portfolio</ul>
-                </h3>
-                <ul id="contactTopLink">Contact</ul></a>
+                <ul class="topLinks" id="portfolioTopLink">Portfolio</ul>
+
+                <ul class="topLinks" id="contactTopLink">Contact</ul>
 
             </div>
         </nav>
     </header>
+    <div id="contactLinks">
+        <h3 id="socialLinksHead">Social Links and Contacts</h3>
+        <ol id="linkContent" >
+            <li><a href="https://www.linkedin.com/in/lazontez-gardner-805669169/ " class="contactLink"><img
+                src="assets\images\LI-Logo.png" width="100px"></a></li>
+            <li><a href="https://github.com/Lazontez?tab=repositories" class="contactLink"><img
+                src="assets\images\GitHub_Logo_White.png" width="100px"></a></li>
+            <li>Resume</li>
+            <li>Number- (615)-475-3959</li>
+            <!-- <li<a href="https://www.linkedin.com/in/lazontez-gardner-805669169/ " class="contactLink"><img
+                        src="assets\images\LI-Logo.png" width="100px"></a></li>
+            <li><a href="https://github.com/Lazontez?tab=repositories" class="contactLink"><img
+                        src="assets\images\GitHub_Logo_White.png" width="100px"></a></li>
+            <li>Phone Number (615)-475-3959</li> -->
+        </ol>
+    </div>
     <section id="mainBio">
 
-        <h2 id="about">About Me</h2>
+        <h4 id="about">About Me</h4>
 
         <div>
+            <img src="assets\images\Screenshot_20190424-003449.png" class="image" width="250px" height="180px">
+
             <p>
-                <img src="assets/images/loadingPic.jpg" width="250px" height="180px">
                 My name is Lazontez Gardner, I was born November 17, 1999. I graduated from Lebanon High School
-                in Lebanon,Tn, where I played basketball and performed on the Track Team.I find interest in Sports,Music,Artwork,Astrology,and all forms of creativeness. My influence on joining the
+                in Lebanon,Tn, where I played basketball and performed on the Track Team.I find interest in
+                Sports,Music,Artwork,Astrology,and all forms of creativeness. My influence on joining the
                 Tech world would be because its almost obvious and amazing to see how technology and different start up
-                ideas have and continue to revolutionize human life and human communication. But, I won't go on my normal 2 day conversation on just how much life has changed and how much it will.
+                ideas have and continue to revolutionize human life and human communication. But, I won't go on my
+                normal 2 day conversation on just how much life has changed and how much it will.
                 Anyways, yeah I've seen all the cool web-development advancements and apps and I knew it was something I
                 very much wanted to be apart of.
             </p>
@@ -47,7 +70,17 @@
     </section>
 
 </body>
-<footer> About Me
+<footer>
+    <div class="card" id="footer">
+        <div class="card-header">
+            About Me
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>When something is important enough, you do it even if the odds are not in your favor.</p>
+            <footer class="blockquote-footer">-Elon Musk<cite title="Source Title"> in source title</cite></footer>
+          </blockquote>
+        </div>
+      </div>
 </footer>
-
 </html>

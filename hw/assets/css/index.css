@@ -3,41 +3,34 @@ body{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 
-    /* background-image:url(assets/images/memphis-mini-dark.png); */
-    background-color: rgb(63, 59, 5, 0.329);
+    background-image:url("memphis-mini-dark.png");
+    /* background-color: rgb(63, 59, 5, 0.329); */
 }
-
-    
-
-
 header {
     border-bottom: 5px;
-    background-color: #ffffff;
+    background-color: #610101;
     padding: 20px;
     border-bottom-style: solid;
-    border-bottom-color: #777777; 
+    border-bottom-color: #86886794;
     
      
 }
-
 h1{
     /* position: relative;
     left: 15%;
     bottom:15%; */
     display: inline;
-    color: #ffffff;
-    background-color: #4aaaa5;
+    color: #610101;
+    background-color: #000000;
     padding: 10px 5px 21px 5px;
 }
-
-
 #aboutTopLink {
 position: absolute;
     left: 70%;
     top: 5%;
     font-family: "Ariel", 'Helvitica Neue',Helvetica,sans-serif;
     display: inline;
-    color: #777777
+    color: whitesmoke;
 }
 
 #portfolioTopLink{
@@ -45,7 +38,7 @@ position: absolute;
     left: 75%;
     top: 5%;
     font-family: "Ariel", 'Helvitica Neue',Helvetica,sans-serif;
-    color: #777777
+    color: whitesmoke;
 
 }
 
@@ -54,10 +47,9 @@ position: absolute;
     position: absolute;
     left: 81%;
     top:5%;
-    color: #777777;
+    color: whitesmoke;
    
 }
-
 h2{
     font-family: Georgia,Times, 'Times New Roman', serif;
     /* position: absolute; */
@@ -71,16 +63,11 @@ h2{
 p{  
     font-family: "Ariel", 'Helvitica Neue',Helvetica,sans-serif;
     font-size: 15px;
-    /* position: absolute; */
-    /* left:36%;
-    top:30%; */
-    /* text-align: left; */
     word-spacing: 1px;
-    color: #777777
+    color: whitesmoke;
     
 }
-
-img{
+.image{
     float: left;
     /* left:16%;
     top:30%; */
@@ -98,33 +85,21 @@ img{
 }
 
 #mainBio{
-    background-color:#F1F1F1;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 215px;
+    background-color:#610101;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 150px;
     width: 550px;
-    padding: 100px 200px;
+    padding: 100px 100px;
     display: inline-block;
-    
-    
+    position: relative;
+    top: -160px;
+    right: 120px;
 
 }
-footer{
-   margin-top: 10px;
-    border-top: 5px;
-    border-top-color: #4aaaa5;
-    color: whitesmoke;
-    background-color: #777777;
-    border-top-style: solid;
-    padding: 25px;
-    /* background-color: #F1F1F1; */
-    position: sticky;
-    /* color: #777777; */
-    
-}
 
-ul:hover {
-background-color: yellow;
+.topLinks:hover {
+background-color: black;
 display: inline;
 
 }
@@ -151,129 +126,37 @@ display: inline;
  } 
 
 #mainContact{
-    background-color:#F1F1F1;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 215px;
+    background-color:#610101;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 150px;
     width: 550px;
-    padding: 100px 200px;
+    padding: 100px 100px;
     display: inline-block;
+    position: relative;
+    top: -160px;
+    right: 120px;
     
 }
 
 #contact{
-    margin-left: -150px;
     margin-top: -50px;
+    color: #000000
 }
 
-#portPhotos{
-    background-color:#F1F1F1;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 215px;
-    width: 550px;
-    padding: 50px 100px;
-    display: inline-block;
-}
-
-#first, #third, #fifth{ 
-    margin-right: 50px;
-}
-#first, #second, #third, #fourth, #fifth{
-    margin-bottom: 50px;
-    width: 200px;
-    float: left;
-}
-/* #portfolio{
-    z-index:1;
-    margin-left: 210px;
-    margin-bottom:-20px; 
-} */
 
 #about{
-margin-left: -150px;
+/* margin-left: -150px; */
 margin-top: -50px;  
+color: whitesmoke;
 }
 
 #mainSection{
     background:whitesmoke;
     position: relative;
     left: 350px;
-    top: 50px;
+    /* top: 50px; */
     width: 650px;
     height: 800px;
 }
-#wordGuessHead{
-    color: yellow;
-    position: relative;
-    left: 80px;
-    z-index: 1;
-    top: 180px;
-}
-#first{
-    position: relative;
-    left: 50px;
 
-}
-#crystalHead{
-    color: yellow;
-    position: relative;
-    left: 140px;
-    z-index: 1;
-    top: 140px;
-}
-#second{
-    position: relative;
-    left: 100px;
-    top: -35px;
-}
-#third{
-    position: relative;
-    left: 50px;
-}
-#triviaHead{
-    color: yellow;
-    z-index: 1;
-    position: relative;
-    left: -350px;
-    top: 390px;
-}
-#gifHead{
-    color:yellow;
-    z-index: 1;
-    position: relative;
-    left: -30px;
-    top: 350px;
-}
-#fourth{
-    position: relative;
-    left: 100px;
-}
-#fifth{
-        position: relative;
-        left: 50px;  
-}
-#iCryptoHead{
-    position: relative;
-    left: -360px;
-    color: yellow;
-    top: 560px;
-    z-index: 1;
-}
-#sixth{
-    left: 100px;
-    position: relative;
-    width: 200px;
-}
-
-#shoeJunkieHead{
-    color: yellow;
-    position: relative;
-    color: yellow;
-    z-index: 1;
-    top: 520px;
-    left: -30px;
-}
-#portfolioHeader{
-    text-align:center;
-}
