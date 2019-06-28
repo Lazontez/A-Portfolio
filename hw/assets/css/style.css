@@ -34,11 +34,11 @@ li{
     padding: 30px;
 }
 #cryptotitle{
-background-color: black;
+/* background-color: black; */
    width:300px;
    color: whitesmoke;
-   position: relative;
-   top:220px;
+   /* position: relative;
+   top:220px; */
  
    text-align: center;
    height:50px
@@ -50,11 +50,10 @@ background-color: black;
     left: 440px;
 }
 #triviaTitle{
-    background-color: black;
-    width: 300px;
-    color: whitesmoke;
-    position: relative;
-    top: 220px;
+    /* background-color: black; */
+     color: whitesmoke;
+    /* position: relative;
+    top: 220px; */
     text-align: center;
     height: 50px;
 }
@@ -63,12 +62,12 @@ background-color: black;
     right: 300px;
 }
 #shoeTitle{
-    background-color: black;
-    width: 300px;
+    /* background-color: black; */
+    /* width: 300px; */
     color: whitesmoke;
-    position: relative;
+    /* position: relative;
     top: 220px;
-    left: 300px;
+    left: 300px; */
     text-align: center;
     height: 50px;
   
@@ -81,11 +80,11 @@ background-color: black;
 
 }
 #crystalTitle{
-    background-color: black;
-    width: 300px;
+    /* background-color: black; */
+    /* width: 300px; */
     color: whitesmoke;
-    position: relative;
-    top: 220px;
+    /* position: relative;
+    top: 220px; */
     text-align: center;
     height: 50px;
 }
@@ -96,9 +95,9 @@ background-color: black;
 #gifTitle{
     /* background-color: black; */
     /* width: 300px; */
-    color: black;
-    position: relative;
-    top: 220px;
+    color: white;
+    /* position: relative;
+    top: 220px; */
     text-align: center;
     height: 50px;
 }
@@ -110,12 +109,12 @@ background-color: black;
 
 }
 #wordGuessTitle{
-    background-color: black;
+    /* background-color: black; */
     width: 300px;
     color: whitesmoke;
-    position: relative;
-    top: 220px;
+    /* position: relative;
+    top: 220px; */
     text-align: center;
-    height: 50px;
+    /* height: 50px; */
     
 }
