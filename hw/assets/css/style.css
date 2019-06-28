@@ -94,9 +94,9 @@ background-color: black;
     right: 300px;
 }
 #gifTitle{
-    background-color: black;
-    width: 300px;
-    color: whitesmoke;
+    /* background-color: black; */
+    /* width: 300px; */
+    color: black;
     position: relative;
     top: 220px;
     text-align: center;
