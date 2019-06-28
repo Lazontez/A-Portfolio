@@ -2,11 +2,11 @@
 This is section to view my Portfolio, get to know me better as well, get in contact with me for potentional discussion.
 To the top-left of the page you will see links to my contact page,portfolio page, and about me page simply click to view.
 
-Here are links to my all of those pages as well to get started.
+Here are links to my all of those pages as well to get started.<br>
 
 
-About Me - https://lazontez.github.io/A-Portfolio/hw/index.html
-Portfolio - https://lazontez.github.io/A-Portfolio/hw/port.html
+About Me - https://lazontez.github.io/A-Portfolio/hw/index.html  <br>
+Portfolio - https://lazontez.github.io/A-Portfolio/hw/port.html  \
 Contact - https://lazontez.github.io/A-Portfolio/hw/contact.html
 
 ## Getting Started
