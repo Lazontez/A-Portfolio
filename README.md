@@ -6,7 +6,7 @@ Here are links to my all of those pages as well to get started.<br>
 
 
 About Me - https://lazontez.github.io/A-Portfolio/hw/index.html  <br>
-Portfolio - https://lazontez.github.io/A-Portfolio/hw/port.html  \
+Portfolio - https://lazontez.github.io/A-Portfolio/hw/port.html  <br>
 Contact - https://lazontez.github.io/A-Portfolio/hw/contact.html
 
 ## Getting Started
